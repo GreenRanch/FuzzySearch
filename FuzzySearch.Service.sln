@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzySearch.API", "FuzzySearch.API\FuzzySearch.API.csproj", "{D224543C-A4CA-49DA-8742-D61AFFBF538B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzySearch.Search.UnitTests", "FuzzySearch.UnitTests\FuzzySearch.Search.UnitTests.csproj", "{B9F975EF-4975-4F6C-8DC2-E1BFCE608380}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzySearch.Core", "FuzzySearch.Core\FuzzySearch.Core.csproj", "{A657E08C-5A05-4BA2-84DF-7C4D9DF574CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzySearch.Data", "FuzzySearch.Data\FuzzySearch.Data.csproj", "{0978906A-8A9A-425B-B304-D0DB05BA43C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzySearch.Service", "FuzzySearch.Service\FuzzySearch.Service.csproj", "{9BD03176-A86E-41C4-99D3-D22A1A461A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D224543C-A4CA-49DA-8742-D61AFFBF538B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D224543C-A4CA-49DA-8742-D61AFFBF538B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D224543C-A4CA-49DA-8742-D61AFFBF538B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D224543C-A4CA-49DA-8742-D61AFFBF538B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F975EF-4975-4F6C-8DC2-E1BFCE608380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F975EF-4975-4F6C-8DC2-E1BFCE608380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F975EF-4975-4F6C-8DC2-E1BFCE608380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F975EF-4975-4F6C-8DC2-E1BFCE608380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A657E08C-5A05-4BA2-84DF-7C4D9DF574CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A657E08C-5A05-4BA2-84DF-7C4D9DF574CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A657E08C-5A05-4BA2-84DF-7C4D9DF574CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A657E08C-5A05-4BA2-84DF-7C4D9DF574CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0978906A-8A9A-425B-B304-D0DB05BA43C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0978906A-8A9A-425B-B304-D0DB05BA43C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0978906A-8A9A-425B-B304-D0DB05BA43C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0978906A-8A9A-425B-B304-D0DB05BA43C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD03176-A86E-41C4-99D3-D22A1A461A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD03176-A86E-41C4-99D3-D22A1A461A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD03176-A86E-41C4-99D3-D22A1A461A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD03176-A86E-41C4-99D3-D22A1A461A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38BBE134-510D-46B6-8D24-586BEB27FB5E}
+	EndGlobalSection
+EndGlobal

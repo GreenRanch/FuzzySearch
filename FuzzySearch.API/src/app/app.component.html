@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="form-group">
+    <h2>Enter account name:</h2>
+    <input type="text" id="accountName" [(ngModel)]="accountName" />
+    <input type="button" (click)="SearchByName()" value="Search" />
+  </div>
+
+  <div class='panel panel-primary' *ngIf='accountModel.accounts && accountModel.accounts.length'>
+    <div class='panel-heading'>
+      Matching Accounts
+    </div>
+    <div class='panel-body'>
+      <div class='table-responsive'>
+        <table class='table'
+               *ngIf='accountModel.accounts && accountModel.accounts.length'>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Balance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let account of accountModel.accounts'>
+              <td>{{ account.Number }}</td>
+              <td>{{ account.Name }}</td>
+              <td>{{ account.Balance }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
